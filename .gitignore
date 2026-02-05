@@ -1,13 +1,18 @@
-# Ignore node modules
-node_modules/
+# Ignore all node_modules everywhere
+**/node_modules/
 
-# Ignore env
+# Ignore env files
 .env
+**/.env
 
 # Logs
 npm-debug.log*
-yarn-error.log*
+yarn-debug.log*
 
-# Build files
+# Build folders
 dist/
 build/
+
+# OS files
+.DS_Store
+Thumbs.db
